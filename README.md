@@ -2,7 +2,7 @@
 
 随着在 github 上 star 成百上千项目以后, 当有一天需要寻找曾经 star 过的某一个项目时, 这时候经常是一脸问号 —— 好像 star 过某个项目能帮助解决当下问题, 但是到底是哪个项目呢?
 
-该 chrome 插件专门为解决此类问题。
+该 chrome 插件专门为解决此类问题。[chrome 商店下载](https://chrome.google.com/webstore/detail/github-notes/ololfachmeilbnmipbbglhbdnadcjlak?authuser=0)
 
 ![](http://with.muyunyun.cn/dd201f484f59a5fd0a0158b15e03ccfc.jpg)
 
@@ -26,4 +26,4 @@
 
 * 更易操作的界面
 * 移除不必要的包, 缩小插件体积
-* 持续迭代
+* 持续迭代, 保持与最新的 github 页面同步

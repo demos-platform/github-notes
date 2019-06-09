@@ -1,7 +1,7 @@
 {
   "name": "GitHub Notes",
   "manifest_version": 2,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a chrome extension that can give github repos your own notes",
   "icons":
   {
