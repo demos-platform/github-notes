@@ -1,4 +1,4 @@
-### GitHub Notess
+### github-notes
 
 随着在 github 上 star 成百上千项目以后, 当有一天需要寻找曾经 star 过的某一个项目时, 这时候经常是一脸问号 —— 好像 star 过某个项目能帮助解决当下问题, 但是到底是哪个项目呢?
 

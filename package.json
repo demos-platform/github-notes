@@ -1,0 +1,26 @@
+{
+  "name": "github-notess",
+  "version": "1.0.3",
+  "description": "a chrome extension that can give github repos your own notes",
+  "scripts": {
+    "build": "node ./scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demos-platform/github-notess.git"
+  },
+  "author": "muyunyun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/demos-platform/github-notess/issues"
+  },
+  "homepage": "https://github.com/demos-platform/github-notess#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}

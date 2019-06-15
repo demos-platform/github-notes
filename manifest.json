@@ -1,7 +1,7 @@
 {
   "name": "GitHub Notes",
   "manifest_version": 2,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a chrome extension that can give github repos your own notes",
   "icons":
   {
@@ -22,7 +22,7 @@
   "content_scripts": [
     {
       "matches": ["*://github.com/*/*"],
-      "js": ["content-scripts/repoDetail.js"],
+      "js": ["output/repoDetail.js"],
       "css": [],
       "run_at": "document_end"
     },
@@ -30,7 +30,7 @@
       "matches": ["*://github.com/*"],
       "js": [
         "lib/list.min.js",
-        "content-scripts/stars.js"
+        "output/stars.js"
       ],
       "css": [],
       "run_at": "document_end"

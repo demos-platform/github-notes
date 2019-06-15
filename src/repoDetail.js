@@ -6,8 +6,9 @@ if (document.querySelector('.pagehead-actions')) {
 
   chrome.storage.local.get('github-repo-notes', res => {
     let obj = res['github-repo-notes'] || {}
-    let el = document.querySelector('div.repository-content .text-gray-dark')   // the program with `its own` notes
-      || document.querySelector('.repository-content .Details-element') // the program without `its own` notes
+    let el = document.querySelector('div.repository-content .f4')
+    // let el = document.querySelector('div.repository-content .text-gray-dark')   // the program with `its own` notes
+    //   || document.querySelector('.repository-content .Details-element') // the program without `its own` notes
     let html
     const note = obj[repoKey]
     // with/whtout user's note
